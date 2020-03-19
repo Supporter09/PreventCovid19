@@ -1,7 +1,7 @@
 .bg{
     width: auto;
     height: 750px;
-    background-color: black;
+    background-color: #151515;
     background-attachment: fixed;
 }
 
@@ -11,7 +11,7 @@
 
 #line{
     border: 2px solid #ffc118;
-    box-shadow: 0px 4px 4px #ffc118);
+    box-shadow: 0px 4px 4px #ffc118;
     width: 800px;
     height: 0px;
     margin-left: auto;
@@ -34,25 +34,40 @@
 #contain{
     flex-flow: column nowrap;
 }
-
+#Symtom_cotainer{
+    display: flex;
+    align-items: center;
+}
 .box-clumn{
     height: 600px;
     width: 300px;
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .box-mini{
     width: 250px;
     height: 50px;
-    background-color:#ffc118;
+    background-color: #ffc118;
     margin: 30px;
     font-size: 35px;
 }
 
 .box-infectious{
-    width: 500px;
-    height: 400px;
-    background-color: white;
     margin-left: auto;
+    /* margin-right: auto; */
+    align-items: center;
+    margin-right: 50px;
+    margin-bottom: 10%;
+    width: 700px;
+    height: 400px;
+    /* background-color: white; */
+    border: 3px solid #ffc118;
+    border-radius: 45px;
+    
+}
+#symptom_image{
+    margin-left: auto;
+    margin-right: atuo;
+    
 }
