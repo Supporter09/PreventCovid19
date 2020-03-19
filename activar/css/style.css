@@ -35,6 +35,7 @@
 html,
 body {
 	height: 100%;
+	background-color: #151515;
 	font-family: "Nunito Sans", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
@@ -3137,4 +3138,18 @@ ol {
 	.contact-map .map-hover {
 		left: 15%;
 	}
+}
+
+
+
+#Corona_prevent_video_container{
+	display:flex;
+	justify-content:space-evenly;
+}
+
+.video_child{
+	
+	width: 320px ;
+	height: 240px;
+	border-radius:15px;
 }
