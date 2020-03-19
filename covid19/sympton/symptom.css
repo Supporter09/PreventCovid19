@@ -37,6 +37,8 @@
 #Symtom_cotainer{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 .box-clumn{
     height: 600px;
@@ -55,9 +57,7 @@
 
 .box-infectious{
     margin-left: auto;
-    /* margin-right: auto; */
-    align-items: center;
-    margin-right: 50px;
+    margin-right: auto;
     margin-bottom: 10%;
     width: 700px;
     height: 400px;
@@ -67,7 +67,7 @@
     
 }
 #symptom_image{
-    margin-left: auto;
-    margin-right: atuo;
+    margin-left: 12%;
+    margin-right: 12%;
     
 }
