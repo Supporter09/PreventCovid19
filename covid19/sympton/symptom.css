@@ -10,8 +10,8 @@
 }
 
 #line{
-    border: 2px solid #e72c2c;
-    box-shadow: 0px 4px 4px rgba(199, 33, 33, 0.582);
+    border: 2px solid #ffc118;
+    box-shadow: 0px 4px 4px #ffc118);
     width: 800px;
     height: 0px;
     margin-left: auto;
@@ -45,7 +45,7 @@
 .box-mini{
     width: 250px;
     height: 50px;
-    background-color: rgb(207, 30, 30);
+    background-color:#ffc118;
     margin: 30px;
     font-size: 35px;
 }
@@ -54,5 +54,5 @@
     width: 500px;
     height: 400px;
     background-color: white;
-    justify-content: right;
+    margin-left: auto;
 }
