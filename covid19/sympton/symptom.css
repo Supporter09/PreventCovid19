@@ -34,7 +34,10 @@
 #contain{
     flex-flow: column nowrap;
 }
-
+#Symtom_cotainer{
+    display: flex;
+    align-items: center;
+}
 .box-clumn{
     height: 600px;
     width: 300px;
@@ -51,8 +54,11 @@
 }
 
 .box-infectious{
+    margin-left: auto;
+    /* margin-right: auto; */
+    margin-bottom: 7%;
     width: 500px;
     height: 400px;
     background-color: white;
-    justify-content: right;
+    justify-items: right;
 }
