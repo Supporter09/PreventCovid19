@@ -6,5 +6,4 @@ fetch(api_url).then(async (data)=>{
     // console.log(dataGet.tratu);
     var word =  dataGet.provinces[0].Province_Name;
     console.log(word);
-    
 })
