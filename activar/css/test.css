@@ -1,0 +1,54 @@
+.slide1{
+    width: 800px;
+    height: 4200px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 50px;
+    border: black solid 4px;
+    background-color: rgb(75, 210, 250);
+    border-radius: 20px;
+    position: relative;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.quest {
+    width: 700px;
+    height: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	border-radius: 8px;
+  	background-color: white;
+  	font-size: 16px;
+	display: inline-block;
+    color: black;
+    text-align: center;
+    
+}
+
+.questbtn {
+    width: 700px;
+    height: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+	border-radius: 12px;
+  	background-color: white;
+  	font-size: 16px;
+  	cursor: pointer;
+	display: inline-block;
+	color: black;
+}
+
+.correct:focus {
+    background-color: greenyellow;
+}
+
+.wrong:focus {
+    background-color: red;
+}

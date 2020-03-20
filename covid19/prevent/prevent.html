@@ -8,37 +8,6 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body class="bg">
-<!-- The grid: four columns -->
-<div class="row">
-    <div class="column">
-      <img src="Phòng1.jpg" alt="Nature" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Phòng2.jpg" alt="Snow" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Phòng3.jpg" alt="Mountains" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Phòng4.jpg" alt="Lights" onclick="myFunction(this);">
-    </div>
-  </div>
-  
-  <!-- The expanding image container -->
-  <div class="container">
-    <!-- Close the image -->
-    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  
-    <!-- Expanded image -->
-    <img id="expandedImg" style="width:100%">
-  
-    <!-- Image text -->
-    <div id="imgtext"></div>
-  </div>
-
-
-
-
     <div > 
         <div id="line"> </div>
         <div> 
@@ -63,8 +32,41 @@
 
 
     </div>
+<!-- The grid: four columns -->
+<div class="row">
+    <div class="column">
+      <img src="Phòng1.jpg" alt="Nature" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="Phòng2.jpg" alt="Snow" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="Phòng3.jpg" alt="Mountains" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="Phòng4.jpg" alt="Lights" onclick="myFunction(this);">
+    </div>
+  </div>
+  
+  <!-- The expanding image container -->
+  <div class="container">
+    <!-- Close the image -->
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  
+    <!--Expanded image -->
+    <img id="expandedImg" style="width:100%">
+  
+    <!-- Image text -->
+    <div id="imgtext"></div>
+  </div>
+
+
+
+
+
 
     
 <script src="prevent.js"></script>
 </body>
 </html>
+
