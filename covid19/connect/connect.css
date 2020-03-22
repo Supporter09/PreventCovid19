@@ -67,3 +67,18 @@
     margin-right: 15px;
 }
 
+<<<<<<< HEAD
+=======
+.display-block {
+    display: inline-block;
+    width: auto;
+    margin-left:150px
+}
+.display-block img{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.display-inline{
+    display: inline;
+}
+>>>>>>> 9920749961f53361c5e4488fcf58390c5d59d973

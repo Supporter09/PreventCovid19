@@ -4,14 +4,15 @@
     margin: 0 auto;
     overflow: hidden;
     margin-top: 50px;
-    border: black solid 4px;
-    background-color: rgb(75, 210, 250);
+    border: 3px solid #F2C94C;
+    box-shadow: 0px 4px 4px #FFD96E;
+    background-color:#494949;
     border-radius: 20px;
     position: relative;
 }
 
 .bg-red{
-    background-color: red;
+    background-color: rgb(248, 63, 63);
 }
 
 .quest {
@@ -22,13 +23,13 @@
     margin-top: 10px;
     margin-bottom: 10px;
 	border-radius: 8px;
-  	background-color: white;
+  	background-color: rgb(121, 115, 115);
   	font-size: 16px;
 	display: inline-block;
     color: black;
     text-align: center;
-    
 }
+
 
 .questbtn {
     width: 700px;
@@ -38,17 +39,20 @@
     margin-bottom: 20px;
     margin-top: 20px;
 	border-radius: 12px;
-  	background-color: white;
+  	background-color: rgb(120, 120, 120);
   	font-size: 16px;
   	cursor: pointer;
 	display: inline-block;
 	color: black;
 }
 
-.correct :focus {
-    background-color: greenyellow;
+.correct:focus {
+    background-color: rgb(180, 245, 80);
 }
 
 .wrong:focus {
-    background-color: red;
+    background-color: rgb(225, 60, 60);
+}
+.quest{
+    background-color: orange;
 }
