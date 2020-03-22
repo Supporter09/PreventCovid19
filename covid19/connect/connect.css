@@ -16,7 +16,7 @@
     height: 0px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     display: block;
 }
 
@@ -67,6 +67,8 @@
     margin-right: 15px;
 }
 
+<<<<<<< HEAD
+=======
 .display-block {
     display: inline-block;
     width: auto;
@@ -79,3 +81,4 @@
 .display-inline{
     display: inline;
 }
+>>>>>>> 9920749961f53361c5e4488fcf58390c5d59d973
