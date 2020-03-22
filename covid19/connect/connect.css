@@ -16,7 +16,7 @@
     height: 0px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     display: block;
 }
 
@@ -67,13 +67,3 @@
     margin-right: 15px;
 }
 
-.display-block {
-    display: block;
-
-}
-
-.display-inline{
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-}
