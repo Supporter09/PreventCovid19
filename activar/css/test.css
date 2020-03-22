@@ -46,7 +46,7 @@
 	color: black;
 }
 
-.correct :focus {
+.correct:focus {
     background-color: greenyellow;
 }
 
