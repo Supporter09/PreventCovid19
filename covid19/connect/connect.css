@@ -68,12 +68,14 @@
 }
 
 .display-block {
-    display: block;
-
-}
-
-.display-inline{
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    width: auto;
+    margin-left:150px
+}
+.display-block img{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.display-inline{
+    display: inline;
 }

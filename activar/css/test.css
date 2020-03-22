@@ -4,8 +4,9 @@
     margin: 0 auto;
     overflow: hidden;
     margin-top: 50px;
-    border: black solid 4px;
-    background-color: rgb(75, 210, 250);
+    border: 3px solid #F2C94C;
+    box-shadow: 0px 4px 4px #FFD96E;
+    background-color:#494949;
     border-radius: 20px;
     position: relative;
 }
@@ -51,4 +52,7 @@
 
 .wrong:focus {
     background-color: red;
+}
+.quest{
+    background-color: orange;
 }
