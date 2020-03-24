@@ -3120,9 +3120,9 @@ ol {
 
 .video_child{
 	
-	width: 320px ;
-	height: 240px;
-	border-radius:15px;
+	width: 450px ;
+	height: 300px;
+	/* border-radius:15px; */
 }
 
 .ld {
