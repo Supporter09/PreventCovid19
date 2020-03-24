@@ -116,12 +116,12 @@ ol {
 }
 
 .set-bg {
-	width: 1450px;
+	/* width: 1450px; */
 	height: 320px;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	background-position: top center;
-	margin-bottom: 20px;
+	/* margin-bottom: 20px; */
 }
 
 .spad {

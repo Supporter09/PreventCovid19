@@ -70,7 +70,8 @@
 .display-block {
     display: inline-block;
     width: auto;
-    margin-left:150px
+    margin-left:150px;
+    margin-top: 40px;
 }
 .display-block img{
     margin-left: 40px;
