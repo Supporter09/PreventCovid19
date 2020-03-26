@@ -2,7 +2,8 @@
 
 body{
 	font-size: 20px;
-	font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
 	color: #333;
   font-weight: 300;
   text-align: center;
@@ -17,7 +18,10 @@ h1{
   color: #fff;
 }
 .question{
-  font-size: 30px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
   margin-bottom: 10px;
 }
 .answers {
@@ -28,10 +32,19 @@ h1{
 .answers label{
   display: block;
   margin-bottom: 10px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+}
+#results{
+  color: red;
+  font-size: 40px;
 }
 button{
-  font-family: 'Work Sans', sans-serif;
-	font-size: 22px;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
 	background-color: #279;
 	color: #fff;
 	border: 0px;

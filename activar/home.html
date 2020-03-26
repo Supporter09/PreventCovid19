@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/connect.css">
+    <!-- <link rel="stylesheet" href="css/email_connection.css"> -->
 </head>
 
 <body class="bg">
@@ -251,6 +252,30 @@
     </div>
     <!-- Connect Section End -->
 
+    <!-- Feedback Form Begin -->
+    <div class="container">
+        <!-- Feedback Form Starts Here -->
+        <div id="feedback">
+        <!-- Heading Of The Form -->
+        <div class="head">
+        <h3>FeedBack Form</h3>
+        <p>This is feedback form. Send us your feedback !</p>
+        </div>
+        <!-- Feedback Form -->
+        <form action="#" id="form" method="post" name="form">
+        <input name="vname" placeholder="Your Name" type="text" value="">
+        <input name="vemail" placeholder="Your Email" type="text" value="">
+        <input name="sub" placeholder="Subject" type="text" value="">
+        <label>Your Suggestion/Feedback</label>
+        <textarea name="msg" placeholder="Type your text here..."></textarea>
+        <input id="send" name="submit" type="submit" value="Send Feedback">
+        </form>
+        <h3><?php include "email_connection.php"?></h3>
+        </div>
+        <!-- Feedback Form Ends Here -->
+    </div>
+    <!-- Feedback Form End -->
+
     <!-- Footer Section Begin -->
     <footer class="footer-section">
         <div class="container">
@@ -320,6 +345,8 @@
 
     </footer>
     <!-- Footer Section End -->
+
+    <?php include 'email_connection.php';?>
 
     <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
