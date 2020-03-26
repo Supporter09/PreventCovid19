@@ -107,26 +107,82 @@
     const submitButton = document.getElementById('submit');
     const myQuestions = [
       {
-        question: "Who invented JavaScript?",
+        question: "Câu 1: Virus Corona lây lan như thế nào?",
         answers: {
-          a: "Douglas Crockford",
-          b: "Sheryl Sandberg",
+          a: "Virus này ban đầu xuất hiện từ nguồn thực vật, không có khả năng lây lan từ người sang người",
+          b: "Virus này ban đầu xuất hiện từ nguồn động vật nhưng có khả năng lây lan từ người sang người thông qua tiếp xúc với dịch cơ thể của người bệnh (chất thải; nước bọt;...)",
         },
         correctAnswer: "b"
       },
       {
-        question: "Which one of these is a JavaScript package manager?",
+        question: "Câu 2: Các không gian nào có nguy cơ lây nhiễm virus cao hơn?",
         answers: {
-          a: "Node.js",
-          b: "TypeScript",
+          a: "Mọi nơi như nhau",
+          b: "Nơi chật hẹp hoặc tập trung đông người",
+        },
+        correctAnswer: "b"
+      },
+      {
+        question: "Câu 3: Tính đến thời điểm hiện tại, đã có thuốc đặc hiệu phòng và điều trị virus Corona mới chưa?",
+        answers: {
+          a: "Đã có",
+          b: "Chưa có",
+        },
+        correctAnswer: "b"
+      },
+      {
+        question: "Câu 4: Người khỏe mạnh bình thường ít có nguy cơ lây nhiễm hơn người yếu không?",
+        answers: {
+          a: "Có",
+          b: "Không",
+        },
+        correctAnswer: "b"
+      },
+      {
+        question: "Câu 5: Miền Nam có ít nguy cơ lây lan dịch hơn miền bắc không?",
+        answers: {
+          a: "Chưa có bằng chứng để so sánh",
+          b: "Miền Nam ít dịch hơn vì cách xa Trung Quốc",
         },
         correctAnswer: "a"
       },
       {
-        question: "Which tool can you use to ensure code quality?",
+        question: "Câu 6: Tiêm vắc xin cúm thường có ngăn ngừa lây nhiễm Virus Corona không?",
         answers: {
-          a: "Angular",
-          b: "jQuery",
+          a: "Có hiệu quả",
+          b: "Không ngăn ngừa được",
+        },
+        correctAnswer: "b"
+      },
+      {
+        question: "Câu 7: Bôi dầu vừng có thể cản trở virus corona xâm nhập cơ thể không?",
+        answers: {
+          a: "Không",
+          b: "Có",
+        },
+        correctAnswer: "a"
+      },
+      {
+        question: "Câu 8: Thời gian ủ bệnh của Virus Corona là bao nhiêu ngày?",
+        answers: {
+          a: "Từ 2-12.5 ngày",
+          b: "Từ 5-7 ngày",
+        },
+        correctAnswer: "a"
+      },
+      {
+        question: "Câu 9: Sốt cao (trên 40 độ) nhưng không đau họng, đó có phải triệu chứng của virus Corona hay không?",
+        answers: {
+          a: "Chắc chắn là không",
+          b: "Có thể có. Nên đến cơ sở y tế gần nhất để được khám",
+        },
+        correctAnswer: "b"
+      },
+      {
+        question: "Câu 10: Theo bạn, khoảng cách an toàn khi ở cạnh người ho, sốt nghi nhiễm Covid-19 là bao nhiêu?",
+        answers: {
+          a: "Ít nhất 1m",
+          b: "Ít nhất 2m",
         },
         correctAnswer: "b"
       }
