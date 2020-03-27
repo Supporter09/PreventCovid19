@@ -5,7 +5,7 @@ html
 
 body
 {
-    background-color: #2f2f2b;
+    background-color: #151515;
     font-family: 'Montserrat', sans-serif, Arial;
     font-size: 20px; 	
     line-height: 35px;
@@ -865,7 +865,7 @@ ul.archive-list li span
 }
 .contact-form input[type=submit]:hover
 {   
-    background-color: #dfdad4;
+    background-color: #151515;
 }
 
 .contact-form input[type=text]::-webkit-input-placeholder, .contact-form input[type=email]::-webkit-input-placeholder, .contact-form textarea::-webkit-input-placeholder
